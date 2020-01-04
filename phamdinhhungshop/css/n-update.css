@@ -1,0 +1,50 @@
+.background {
+	width: 50%;
+	height: 300px;
+	background: #3498db;
+	margin: 0px auto;
+	box-sizing: border-box;
+	padding-top: 50px;
+	margin-top: 100px;
+	position: relative;
+}
+.background .fa-reply-all {
+	position: absolute;
+	font-size: 30px;
+	color: #fff;
+	top: 3%;
+	left: 2%;
+}
+.background .box {
+	width: 80%;
+	margin: 0px auto;
+	height: 200px;
+	background: #2980b9;
+	opacity: 0.6;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+.background .box h2.title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+.background .box p.content {
+	font-size: 25px;
+	color: #2c3e50;
+	text-align: center;
+}
+.background .box span {
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0px auto;
+	font-size: 40px;
+	background: #fff;
+	border: 3px solid #000;
+	border-radius: 100%;
+	box-sizing: border-box;
+	padding: 2px 0px 0px 5px;
+}

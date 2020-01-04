@@ -1,0 +1,74 @@
+
+
+
+
+.slide-box {
+    width: 100%;
+    height: 344px;
+    margin: 0px auto;
+    position: relative;
+    overflow :hidden;
+}
+.list-slide {
+    width: 100%;
+    height: 381px;
+    overflow: hidden;
+}
+.list-slide .slide img {
+    width: 100%;
+    height: auto;
+}
+.slide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -3;
+}
+.slide.active-bn {
+    opacity: 1;
+    visibility: visible;
+}
+.btn-slide span {
+    color: #fff;
+    font-size: 40px;
+    opacity: 0.6;
+}
+.btn-slide span.btn-prev-banner {
+    position: absolute;
+    left: 2%;
+    top: 40%;
+    cursor: pointer;
+    z-index: -2;
+}
+.btn-slide span.btn-next-banner {
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    cursor: pointer;
+    z-index: -2;
+}
+.btn-slide ul {
+    position: absolute;
+    z-index: -2;
+    width: 100px;
+    bottom: 20%;
+    left: 50%;
+    margin: -50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.btn-slide ul li {
+    background: #fff;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    transition: all 0.5;
+    cursor: pointer;
+    opacity: 0.3;
+}
+.btn-slide ul li.active-li {
+    opacity: 1;
+}
